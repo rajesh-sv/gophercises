@@ -1,0 +1,19 @@
+<h1>Choose Your Own Adventure</h1>
+<h2>Title: {{.Title}}</h2>
+<ul>
+    {{range .Story}}
+        <li>{{.}}</li>
+    {{end}}
+</ul>
+{{if .Options}}
+    <h2>Choices:</h2>
+    <ul>
+        {{range .Options}}
+            <li>
+        <a href="/{{.Arc}}">{{.Text}}</a>
+            </li>
+        {{end}}
+    </ul>
+{{else}}
+    <h2>You have finished your adventure!</h2>
+{{end}}
