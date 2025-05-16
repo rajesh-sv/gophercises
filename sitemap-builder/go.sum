@@ -1,0 +1,4 @@
+github.com/rajesh-sv/gophercises/html-link-parser v0.0.0-20250515123225-b2b541d802a5 h1:RvpgjrTCf30NQtZQp3gYGzO6drdY7YGrIidLLgvMi/s=
+github.com/rajesh-sv/gophercises/html-link-parser v0.0.0-20250515123225-b2b541d802a5/go.mod h1:pJwf2SijThl7MkaO4JFZ2vseG2xXAWyJdu1lyuqPQLI=
+golang.org/x/net v0.40.0 h1:79Xs7wF06Gbdcg4kdCCIQArK11Z1hr5POQ6+fIYHNuY=
+golang.org/x/net v0.40.0/go.mod h1:y0hY0exeL2Pku80/zKK7tpntoX23cqL3Oa6njdgRtds=
